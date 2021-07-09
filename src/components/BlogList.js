@@ -10,7 +10,7 @@ const BlogList = ({ blogs, title, handleDelete }) => {
                 </div>
             ))}
         </div>
-     );
+     )
 }
  
 export default BlogList;
