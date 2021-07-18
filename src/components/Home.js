@@ -1,8 +1,6 @@
-// import { useState, useEffect } from 'react'
 import BlogList from './BlogList'
 import useFetch from './useFetch';
 
-// next 21
 const Home = () => {
     const { data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs')
 
